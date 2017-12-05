@@ -1,0 +1,40 @@
+@CHARSET "UTF-8";
+
+body{
+	background: black;
+	color: white;
+}
+h5{
+	float: left; /*ZWROCIC CZY DZIALA PO RESECIE*/
+}
+/*repertory*/
+.time-button{
+	background: black;
+	border: 2px solid #1a1a1a;
+	color: white;
+}
+.time-button:ACTIVE {
+	text-decoration: none;
+	color: #808080;
+}
+.time-button:HOVER{
+	text-decoration: none;
+	color: #808080;
+}
+a.about-film{
+	color: white;
+}
+a.about-film:ACTIVE{
+	color: white;
+}
+img.miniature-img{
+	width: 30px; 
+	height: 40px; 
+	margin-right: 5px;
+}
+a.active{
+	background-color: black;
+	color: red;
+}
+
+/*about-film*/
